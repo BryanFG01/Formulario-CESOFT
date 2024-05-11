@@ -33,7 +33,8 @@ app.post("/validar", function(require,res){
     let dropdown = datos.dropdown;
     let Comentarios = datos.Comentarios;
 
-    let buscar = "SELECT * FROM nombre de la tabla WHERE cedula = "+Cedula+" ";
+    let buscar =
+      "SELECT * FROM nombre de la tabla WHERE Email = " + Email + "";
 
     conexion.query(buscar, function(error, row){
         if(error){
@@ -47,8 +48,6 @@ app.post("/validar", function(require,res){
               Nombre +
               "', '" +
               Apellidos +
-              "', '" +
-              Ciudad +
               "', '" +
               Ciudad +
               "','" +
@@ -80,9 +79,13 @@ app.post("/validar", function(require,res){
 
 });
 
+const crued = require('./crud');
+
 app.listen(3000, function(){
     console.log("servidor creado http://localhost:3000");
 });
+
+
 
 
 
@@ -97,3 +100,5 @@ addForm.addEventListener("submit", (e)=>{
         return false
     }
 })**/
+
+
