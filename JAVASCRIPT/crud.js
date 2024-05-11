@@ -33,3 +33,30 @@ controller.save = (req, res) =>{
 
 
 
+        
+
+        //Obtener la referencia al input de búsqueda y a la lista de elementos
+       // const inputBusqueda = document.getElementById("Search");
+       // const listaElementos = document.getElementById('lista-elementos');    (corregir )
+
+        // Agregar un evento de escucha al input de búsqueda
+       /**  inputBusqueda.addEventListener('input', function() {
+            const terminoBusqueda = inputBusqueda.value.toLowerCase(); // Obtener el término de búsqueda y convertirlo a minúsculas
+            const elementos = listaElementos.getElementsByTagName('li'); // Obtener todos los elementos de la lista
+
+            // Recorrer los elementos de la lista
+            Array.from(elementos).forEach(function(elemento) {
+                const textoElemento = elemento.textContent.toLowerCase(); // Obtener el texto del elemento y convertirlo a minúsculas
+                
+                // Mostrar u ocultar el elemento dependiendo si coincide con el término de búsqueda
+                if (textoElemento.includes(terminoBusqueda)) {
+                    elemento.style.display = 'block'; // Mostrar el elemento
+                } else {
+                    elemento.style.display = 'none'; // Ocultar el elemento
+                }
+            });
+        });*/
+
+
+
+
