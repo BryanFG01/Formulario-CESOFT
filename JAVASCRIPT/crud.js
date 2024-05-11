@@ -1,5 +1,5 @@
- // poner base de datos en ()
-const conexion = require('/');
+ // poner base de datos en ()  y en la linea 8
+/**const conexion = require('/');
 
 controller.save = (req, res) =>{
     const data = req.body;
@@ -9,4 +9,6 @@ controller.save = (req, res) =>{
             res.redirect('/')            
         });
     });
-};
+}; **/
+
+
