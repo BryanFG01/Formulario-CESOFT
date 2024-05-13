@@ -11,19 +11,14 @@ controller.save = (req, res) =>{
     });
 }; **/
 
-        
 
-// Función para editar
-document.getElementById("Edit").addEventListener("click", function(event) {
-    event.preventDefault();
-    
+// Función para el botón "Editar"
+document.getElementById("editarBtn").addEventListener("click", function() {
     alert("Editar");
 });
 
-// Función para eliminar
-document.getElementById("Delete").addEventListener("click", function(event) {
-    event.preventDefault();
-    
+// Función para el botón "Eliminar"
+document.getElementById("eliminarBtn").addEventListener("click", function() {
     alert("Eliminar");
 });
 
